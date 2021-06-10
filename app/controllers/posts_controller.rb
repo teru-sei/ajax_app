@@ -8,6 +8,4 @@ class PostsController < ApplicationController
     post = Post.create(content: params[:content])
     render json:{ post: post }
   end
- # def new
- # end
 end
