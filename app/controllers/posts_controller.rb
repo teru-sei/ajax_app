@@ -3,9 +3,13 @@ class PostsController < ApplicationController
   def index
     @posts = Post.all
   end
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+  
+>>>>>>> parent of 9c4978f (JSでレスポンスを処理する)
   def create
     post = Post.create(content: params[:content])
     render json:{ post: post }
